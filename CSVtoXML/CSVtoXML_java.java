@@ -49,7 +49,7 @@ public class CSVtoXML_java {
             link = new ArrayList<String>();                        
 
             try {                
-		String csvFile = "D:\\Documents\\GitHub\\DATA_MIGRATION\\CSVtoXML\\ClData.csv";
+		String csvFile = "C:\\Path\\To\\CSVFile.csv";
 		BufferedReader br = null;
 		String line = "";
 		String cvsSplitBy = ",";
@@ -155,7 +155,7 @@ public class CSVtoXML_java {
                 transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
                 
 		DOMSource source = new DOMSource(doc);
-		StreamResult result = new StreamResult(new File("D:\\Java\\Projects\\CLdata_csv.xml"));		
+		StreamResult result = new StreamResult(new File("C:\\Path\\To\\XMLFile.xml"));		
 		transformer.transform(source, result);
                 
                 System.out.println("Successfully created xml file!");

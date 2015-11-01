@@ -32,9 +32,9 @@ public class SQLtoCSV_java {
             link = new ArrayList<String>();
                        
             try {            
-                String url = "jdbc:mysql://localhost:3306/horseracing";            
-                String username = "root";
-                String password  =  "poet87*";
+                String url = "jdbc:mysql://<hostname>:3306/<databasename>";            
+                String username = "****";
+                String password  =  "****";
                             
                 // Connect to database
                 Connection conn = DriverManager.getConnection(url, username, password);
@@ -99,7 +99,7 @@ public class SQLtoCSV_java {
                 String NEW_LINE_SEPARATOR = "\n";
                      
                 // Output data to CSV
-                FileWriter writer = new FileWriter("D:\\Java\\projects\\CLData_sql.csv");
+                FileWriter writer = new FileWriter("C:\\Path\\To\\CSVFile.csv");
                 
                 // Column headers
                 writer.append(COLUMN_HEADER.toString());

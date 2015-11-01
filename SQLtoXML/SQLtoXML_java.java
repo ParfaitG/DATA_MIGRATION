@@ -47,9 +47,9 @@ public class SQLtoXML_java {
             link = new ArrayList<String>();                        
 
             try {                
-                String url = "jdbc:mysql://localhost:3306/horseracing";            
-                String username = "root";
-                String password  =  "poet87*";
+                String url = "jdbc:mysql://<hostname>:3306/<databasename>";            
+                String username = "****";
+                String password  =  "****";
                             
                 // Connect to database
                 Connection conn = DriverManager.getConnection(url, username, password);
@@ -155,7 +155,7 @@ public class SQLtoXML_java {
                 transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
                 
 		DOMSource source = new DOMSource(doc);
-		StreamResult result = new StreamResult(new File("D:\\Java\\Projects\\CLdata_sql.xml"));		
+		StreamResult result = new StreamResult(new File("C:\\Path\\To\\XMLFile.xml"));		
 		transformer.transform(source, result);
                 
                 System.out.println("Successfully created xml file!");

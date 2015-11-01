@@ -37,7 +37,7 @@ public class CSVtoSQL_java {
             link = new ArrayList<String>();                        
 
             try {                
-		String csvFile = "D:\\Documents\\GitHub\\DATA_MIGRATION\\CSVtoSQL\\ClData.csv";
+		String csvFile = "C:\\Path\\To\\CSVFile.csv";
 		BufferedReader br = null;
 		String line = "";
 		String cvsSplitBy = ",";
@@ -92,9 +92,9 @@ public class CSVtoSQL_java {
 		}
                 
 		// Connect to Database
-		String url = "jdbc:mysql://localhost:3306/horseracing";            
-                String username = "root";
-                String password  =  "poet87*";
+		String url = "jdbc:mysql://<hostname>:3306/<databasename>";            
+                String username = "****";
+                String password  =  "****";
 		Connection conn = DriverManager.getConnection(url, username, password);
 		
 		// Append data to Database

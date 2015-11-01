@@ -45,7 +45,7 @@ public class XMLtoSQL_java {
             try {                
 		// Parse XML file
                 DocumentBuilder db = dbf.newDocumentBuilder();                
-                dom = db.parse("D:\\Documents\\GitHub\\DATA_MIGRATION\\XMLtoSQL\\CLData.xml");
+                dom = db.parse("C:\\Path\\To\\XMLFile.xml");
 		    
                 Element doc = dom.getDocumentElement();
                 NodeList cllist = doc.getElementsByTagName("missedConnection");
@@ -108,9 +108,9 @@ public class XMLtoSQL_java {
 		}
                 
 		// Connect to Database
-		String url = "jdbc:mysql://localhost:3306/horseracing";            
-                String username = "root";
-                String password  =  "poet87*";
+		String url = "jdbc:mysql://<hostname>:3306/<databasename>";            
+                String username = "****";
+                String password  =  "****";
 		Connection conn = DriverManager.getConnection(url, username, password);
 		
 		// Append data to Database

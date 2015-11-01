@@ -46,7 +46,7 @@ public class XMLtoCSV_java {
             try {
                 // Parse XML file
                 DocumentBuilder db = dbf.newDocumentBuilder();                
-                dom = db.parse("D:\\Documents\\GitHub\\DATA_MIGRATION\\XMLtoCSV\\CLData.xml");
+                dom = db.parse("C:\\Path\\To\\XMLFile.xml");
     
                 Element doc = dom.getDocumentElement();
                 NodeList cllist = doc.getElementsByTagName("missedConnection");
@@ -113,7 +113,7 @@ public class XMLtoCSV_java {
                 String NEW_LINE_SEPARATOR = "\n";
                      
                 // Output data to CSV
-                FileWriter writer = new FileWriter("D:\\Java\\projects\\CLData_xml.csv");
+                FileWriter writer = new FileWriter("C:\\Path\\To\\CSVFile.csv");
                 
                 // Column headers
                 writer.append(COLUMN_HEADER.toString());
