@@ -1,10 +1,5 @@
 <?php
 
-$host="localhost";
-$username="root";
-$password="poet87*";
-$database="horseracing";
-
 // Load XML file
 $cd = dirname(__FILE__);
 
@@ -20,7 +15,7 @@ $xmlRoot = $domtree->appendChild($xmlRoot);
 
 # Opening db connection
 try {
-    $dbh = new PDO("mysql:host=$host;dbname=$database",$username,$password);    
+    $dbh = new PDO("mysql:host=$hostname;dbname=$database",$username,$password);    
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
     $sql = "SELECT * FROM cldata";
@@ -40,7 +35,7 @@ while($row = $STH->fetch()) {
      
      $userNode = $domtree->createElement('user', $row['user']);
      $userNode = $mcNode->appendChild($userNode);
-     
+
      $cityNode = $domtree->createElement('city', $row['city']);
      $cityNode = $mcNode->appendChild($cityNode);
      
@@ -55,7 +50,7 @@ while($row = $STH->fetch()) {
      
      $linkNode = $domtree->createElement('link', htmlentities($row['link']));
      $linkNode = $mcNode->appendChild($linkNode);
-  
+
 }
 
 file_put_contents($cd. "/CLDataOutput.xml", $domtree->saveXML());
