@@ -1,12 +1,11 @@
 # DATA_MIGRATION
-XML, CSV, SQL data migration/conversion scripts in PHP, Python, R, SAS, MS Access, and MS Excel.
+XML, CSV, SQL data migration/conversion scripts in Java, PHP, Python, R, SAS, and VBA (MS Access and MS Excel).
 
 Using *Craigslist Missed Connections NYC/CHI/LA* posts as example data, scripts include six data migration processes in attached folders.
 Each folder contains examples in above 5 programming language/software types.
 
 **REQUIREMENT**: For any MySQL or other database imports and/or exports, a CLData table is required (see attached create table .sql script).
-Additionally, some scripts require various libraries/modules (i.e., PDO in PHP; pymysql in Python; RMySQL in R; and ODBC drivers for 
-Access/Excel/SAS).
+Additionally, some scripts require various libraries/modules (i.e., jdbc drivers in Java; PDO in PHP; pymysql in Python; RMySQL in R; and ODBC drivers for Access/Excel/SAS).
 
 1. #####CSV to SQL 
    Each script in various forms uploads CSV data to connected CLData database table. Attached CSV is included.
