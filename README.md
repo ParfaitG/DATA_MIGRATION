@@ -8,19 +8,19 @@ Each folder contains examples in above 5 programming language/software types.
 Additionally, some scripts require various libraries/modules (i.e., jdbc drivers in Java; PDO in PHP; pymysql in Python; RMySQL in R; and ODBC drivers for Access/Excel/SAS).
 
 1. #####CSV to SQL 
-   Each script in various forms uploads CSV data to connected CLData database table. Attached CSV is included.
+   Each script in various forms uploads CSV data to connected CLData database table. Attached CSV file is included.
 
 2. #####CSV to XML 
-   Each script outputs XML file. For document formatting, MS Access, Excel and SAS runs embedded XSLT stylesheets. Attached CSV is included.
+   Each script outputs XML file. For document formatting, MS Access, Excel and SAS runs embedded XSLT stylesheets. Attached CSV file is included.
 
 3. #####SQL to CSV
-   Each script connects to database and queries CLData table for CSV output.
+   Each script connects to database and queries CLData table for CSV output. Attached SQL create table code is included.
 
 4. #####SQL to XML
-   Each script connects to database and queries CLData table for XML output. For document formatting, MS Access, Excel and SAS runs embedded XSLT stylesheets.
+   Each script connects to database and queries CLData table for XML output. For document formatting, MS Access, Excel and SAS runs embedded XSLT stylesheets. Attached SQL create table code is included.
 
 5. #####XML to CSV
-   Each script converts XML data to CSV format.  Attached XML is included.
+   Each script converts XML data to CSV format.  Attached XML file is included.
 
 6. #####XML to SQL
-   Each script in various forms uploads XML data to connected CLData database table. Attached XML is included.
+   Each script in various forms uploads XML data to connected CLData database table. Attached XML file is included.
