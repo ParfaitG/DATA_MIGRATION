@@ -3,15 +3,14 @@
 // Set current directory
 $cd = dirname(__FILE__);
 
-// create a dom document 
+// Create a DOM document 
 $domtree = new DOMDocument('1.0', 'UTF-8');
 $domtree->formatOutput = true;
 $domtree->preserveWhiteSpace = false;
 
-/* create the root element of the xml tree */
+// Create the root element of the XML tree
 $xmlRoot = $domtree->createElement("CLData");
 $xmlRoot = $domtree->appendChild($xmlRoot);
-
 
 // Read CSV file
 $handle = fopen($cd."/CLData.csv", "r");    

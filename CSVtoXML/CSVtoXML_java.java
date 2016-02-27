@@ -1,3 +1,4 @@
+import java.util.*;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -9,7 +10,6 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.OutputKeys;
 
-import java.util.ArrayList;
 import java.io.File;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

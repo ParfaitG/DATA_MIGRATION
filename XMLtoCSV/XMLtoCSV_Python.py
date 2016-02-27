@@ -30,7 +30,7 @@ with open(os.path.join(cd,'CLData_{0}.csv'.format(todaydate)), 'w', newline='') 
         dataline = []
         for col in columns:
             # LOCATE PATH OF NODE VALUE
-            childxpath = dom.xpath('//missedConnection{0}]/{1}'.format(j, col))
+            childxpath = dom.xpath('//missedConnection[{0}]/{1}'.format(j, col))
 
             # APPEND DATA LINES   
             for elem in childxpath:
