@@ -12,7 +12,7 @@ Additionally, some scripts require various libraries/modules:
 * SQL scripts: Java - jdbc mysql; PHP - PDO extension; Python - pymysql; R - RMySQL; SAS - ODBC; MS Access/Excel - MySQL ODBC driver;
 
 ---
-1. #####[CSV to SQL](/CSVtoXML)
+1. #####[CSV to SQL](/CSVtoSQL)
    Each script imports CSV data into connected CLData database table. Attached CSV file is included.
 
 2. #####[CSV to JSON](/CSVtoJSON) 
