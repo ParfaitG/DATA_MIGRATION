@@ -12,38 +12,38 @@ Additionally, some scripts require various libraries/modules:
 * SQL scripts: Java - jdbc mysql; PHP - PDO extension; Python - pymysql; R - RMySQL; SAS - ODBC; MS Access/Excel - MySQL ODBC driver;
 
 ---
-1. #####[CSV to SQL](/CSVtoSQL)
+1. [CSV to SQL](/CSVtoSQL)
    Each script imports CSV data into connected CLData database table. Attached CSV file is included.
 
-2. #####[CSV to JSON](/CSVtoJSON) 
+2. [CSV to JSON](/CSVtoJSON) 
    Each script converts CSV data into JSON format with pretty printing. Attached CSV file is included.
 
-3. #####[CSV to XML](/CSVtoXML)
+3. [CSV to XML](/CSVtoXML)
    Each script converts CSV data and into XML format. For document formatting, MS Access, Excel and SAS runs embedded XSLT stylesheets. Attached CSV file is included.
 
-4. #####[JSON to CSV](/JSONtoCSV)
+4. [JSON to CSV](/JSONtoCSV)
    Each script parses JSON data and outputs to CSV format. Attached JSON file is included.
 
-5. #####[JSON to SQL](/JSONtoSQL)
+5. [JSON to SQL](/JSONtoSQL)
    Each script parses JSON data and imports into connected CLData database table. Attached JSON file is included.
 
-6. #####[JSON to XML](/JSONtoXML) 
+6. [JSON to XML](/JSONtoXML) 
    Each script parses JSON file and outputs to XML format. For document formatting, MS Access, Excel and SAS runs embedded XSLT stylesheets. Attached JSON file is included.
 
-7. #####[SQL to CSV](/SQLtoCSV)
+7. [SQL to CSV](/SQLtoCSV)
    Each script connects to database and queries CLData table for CSV output.  Attached SQL create table code is included.
 
-8. #####[SQL to JSON](/SQLtoJSON) 
+8. [SQL to JSON](/SQLtoJSON) 
    Each script connects to database and queries CLData table for JSON output with pretty printing. Attached SQL create table code is included.
 
-9. #####[SQL to XML](/SQLtoXML)
+9. [SQL to XML](/SQLtoXML)
    Each script connects to database and queries CLData table for XML output. For document formatting, MS Access, Excel and SAS runs embedded XSLT stylesheets. Attached SQL create table code is included.
 
-10. #####[XML to CSV](/XMLtoCSV)
+10. [XML to CSV](/XMLtoCSV)
    Each script parses XML file and outputs to CSV format.  Attached XML file is included.
 
-11. #####[XML to JSON](/XMLtoJSON)
+11. [XML to JSON](/XMLtoJSON)
    Each script parses XML file and outputs to JSON with pretty printing. Attached XML file is included.
 
-12. #####[XML to SQL](/XMLtoSQL)
+12. [XML to SQL](/XMLtoSQL)
    Each script parses XML data and imports into connected CLData database table. Attached XML file is included.
